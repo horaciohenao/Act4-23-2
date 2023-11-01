@@ -161,11 +161,11 @@ public class hashtable {
 
         // Metodo toString()
         System.out.println("myHashTable: " + myHashTable.toString());
-        
+        // output: "myHashTable: {Valor 6=-200, Valor 4=320, Valor 2=80, Valor 1=500}"
+
 
         // Metodo clear()
         myHashTable.clear();
-        // output: "myHashTable: {Valor 6=-200, Valor 4=320, Valor 2=80, Valor 1=500}"
 
         
         // Metodo values()
