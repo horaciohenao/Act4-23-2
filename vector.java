@@ -84,6 +84,7 @@ public class vector {
 
         // metodo indexOf()
         System.out.println("primera aparicion de 10 en el vector: " + myVector.indexOf(10));
+        // output: "primera aparicion de 10 en el vector: 6"
 
 
         // metodo insertElementAt
@@ -92,10 +93,12 @@ public class vector {
 
         // metodo isEmpty()
         System.out.println("El vector esta vacio? " + myVector.isEmpty() );
+        // output: "El vector esta vacio? false"
         
 
         // metodo lastElement
         System.out.println("ultimo valor en el vector: " + myVector.lastElement());
+        // output: "ultimo valor en el vector: 10"
 
 
         // metodo lastIndexOf

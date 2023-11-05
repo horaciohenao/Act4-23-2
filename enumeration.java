@@ -10,6 +10,7 @@ public class enumeration {
         myVector.add(2);
         myVector.add(3);
 
+        // Crea un enumerator
         Enumeration<Integer> myEnum = myVector.elements();
         
         // metodo hasMoreElements()
