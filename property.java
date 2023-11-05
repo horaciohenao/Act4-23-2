@@ -83,7 +83,7 @@ public class property {
         }
         // importa un archivo "XMLkeys.xml"
         
-        // Metodo elements()
+        // Metodo propertyNames()
         Enumeration<?> enums = myProperties.propertyNames();
         while ( enums.hasMoreElements() ) {
             
