@@ -48,7 +48,7 @@ public class vector {
 
 
         // metodo containsAll()
-        System.err.println("Los vectores contienen los mismos valores? " + myVector.containsAll(myVectorClone) );
+        System.out.println("Los vectores contienen los mismos valores? " + myVector.containsAll(myVectorClone) );
         // output: "Los vectores contienen los mismos valores? true"
         
 

@@ -127,30 +127,20 @@ public class collection {
         System.out.println("El valor 2 esta en la posicion: " + binSrc);
 
 
-        // checkedCollection
+        // checked
         Collection<String> myCollectionCollectionCheck = Collections.checkedCollection(myDeque,String.class); 
 
-
-        // checkedList
         Collection<Integer> myCollectionListCheck = Collections.checkedList(myArrayList, Integer.class); 
         
-
-        // checkedSet
         Set<Integer> mySet = new HashSet<>();
         Set<Integer> mySetCheck = Collections.checkedSet(mySet, Integer.class); 
 
-
-        // checkedMap
         Map<String, Integer> myMap = new HashMap<>();
         Map<String, Integer> myMapCheck= Collections.checkedMap(myMap, String.class, Integer.class); 
 
-
-        // checkedNavigableMap
         NavigableMap<String, Integer> myNavigableMap = new TreeMap<>();
         NavigableMap<String, Integer> myNavigableMapCheck = Collections.checkedNavigableMap(myNavigableMap, String.class, Integer.class);
 
-
-        // checkedNavigableSet
         NavigableSet<Integer> myNavigableSet = new TreeSet<>();
         NavigableSet<Integer> myNavigableSetCheck = Collections.checkedNavigableSet(myNavigableSet, Integer.class);
 
