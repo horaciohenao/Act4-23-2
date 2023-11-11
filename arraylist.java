@@ -1,10 +1,8 @@
 import java.util.ArrayList;
-import java.util.List;
 import java.util.ListIterator;
 import java.util.Spliterator;
 import java.util.Comparator;
 import java.util.Iterator;
-import java.util.Collections;
 
 public class arraylist {
 
