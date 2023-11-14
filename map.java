@@ -54,6 +54,7 @@ public class map {
         Set<Map.Entry<String, Integer>> Entries = myMap.entrySet();
         System.out.println("Valores en Entries: " + Entries);
 
+
         // equals
         System.out.println("Es \"myamp\" igual a \"mymap2\"? " + myMap.equals(myMap2));
 

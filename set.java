@@ -48,7 +48,7 @@ public class set {
 
 
         // isEmpty
-        System.out.println("¿El set está vacío? " + mySet.isEmpty());
+        System.out.println("El set esta vacío? " + mySet.isEmpty());
 
 
         // iterator
@@ -76,7 +76,7 @@ public class set {
 
 
         // size
-        System.out.println("¿Cuál es el tamaño del set? " + mySet.size());
+        System.out.println("Cual es el tamaño del set? " + mySet.size());
         
 
         // spliterator

@@ -39,7 +39,7 @@ public class linkedlist {
 
 
         // clear
-        myLnkList.clear(); 
+        // myLnkList.clear(); 
 
 
         // clone

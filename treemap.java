@@ -31,7 +31,7 @@ public class treemap {
 
 
         // clear
-        myTreeMap.clear();
+        // myTreeMap.clear();
 
 
         // clone
@@ -39,7 +39,7 @@ public class treemap {
 
 
         // containsKey
-        System.out.println("El treemap contiene una key \"Valor 3\"? " + myTreeMap.containsKey("Valor 3"));
+        System.out.println("El treemap contiene una key 3? " + myTreeMap.containsKey(3));
         
 
         // containValue

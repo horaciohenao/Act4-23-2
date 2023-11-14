@@ -1,5 +1,7 @@
+import java.util.Spliterator;
 import java.util.Iterator;
 import java.util.TreeSet;
+import java.util.SortedSet;
 import java.util.Vector;
 import java.util.Set;
 
@@ -115,15 +117,15 @@ public class treeset {
 
 
         // spliterator
-        Spliterator<String> spliterator = myTreeSet.spliterator(); 
+        Spliterator<Integer> mySpliterator = myTreeSet.spliterator(); 
 
 
         // myTreeSet
-        TreeSet<Integer> mySubsetTreeSet = (TreeSet<Integer>) myTreeSet.subSet(1, 3);
+        SortedSet<Integer> mySubsetTreeSet = myTreeSet.subSet(1, 3);
 
 
         // tailSet
-        TreeSet<Integer> myTailSetTreeSet = (TreeSet<Integer>) myTreeSet.tailSet(5);
+        SortedSet<Integer> myTailSetTreeSet = myTreeSet.tailSet(5);
 
 
         // isEmpty
