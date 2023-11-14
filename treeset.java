@@ -54,6 +54,10 @@ public class treeset {
         System.out.println("\n _");
 
 
+        // descendingSet
+        Set<Integer> descendingSet = myTreeSet.descendingSet();
+
+
         // iterator
         Iterator<Integer> myIt = myTreeSet.iterator();
 
@@ -76,6 +80,10 @@ public class treeset {
 
         // higher
         System.out.println("Elemento mayor a 4 del treeset " + myTreeSet.higher(4));
+
+
+        // headset
+        System.out.println("Elemento menores a Valor 2: " + myTreeSet.headSet(4));
 
 
         // lower
@@ -104,6 +112,18 @@ public class treeset {
 
         // size
         System.out.println("El amaño del treeset es: " + myTreeSet.size());
+
+
+        // spliterator
+        Spliterator<String> spliterator = myTreeSet.spliterator(); 
+
+
+        // myTreeSet
+        TreeSet<Integer> mySubsetTreeSet = (TreeSet<Integer>) myTreeSet.subSet(1, 3);
+
+
+        // tailSet
+        TreeSet<Integer> myTailSetTreeSet = (TreeSet<Integer>) myTreeSet.tailSet(5);
 
 
         // isEmpty

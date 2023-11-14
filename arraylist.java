@@ -43,10 +43,6 @@ public class arraylist {
         myArrList.forEach((s) -> System.out.println(s));
 
 
-        // indexOf
-        System.out.println("primera aparicion de Valor 1 en la lista: " + myArrList.indexOf("Valor 1"));
-
-
         // iterator
         Iterator<String> myIt = myArrList.iterator();
 
@@ -59,8 +55,8 @@ public class arraylist {
         System.out.println("_\n");
 
 
-        // indexOf
-        System.out.println("primera aparicion de Valor 1 en la lista: " + myArrList.indexOf("Valor 1"));
+        // lastIndexOf
+        System.out.println("ultima aparicion de Valor 1 en la lista: " + myArrList.lastIndexOf("Valor 1"));
 
 
         // listIterator
@@ -68,7 +64,7 @@ public class arraylist {
 
         while (myLstIt.hasNext()) {
 
-            System.out.print(myIt.next() + " ");
+            System.out.print(myLstIt.next() + " ");
 
         }
 
@@ -76,15 +72,23 @@ public class arraylist {
 
 
         // remove
-        myArrList.remove("Valor 3");
+        // myArrList.remove("Valor 3");
 
 
         // removeAll
-        myArrList.removeAll(myArrListAdded);
+        // myArrList.removeAll(myArrListAdded);
 
 
         // removeIf
-        myArrList.removeIf(element -> element.contains("x"));
+        // myArrList.removeIf(element -> element.contains("x"));
+
+
+        // removeRange
+        // myArrList.removeRange(1, 2);
+
+
+        // retainAll
+        // myArrList.retainAll(myArrListAdded);
 
 
         // replaceAll

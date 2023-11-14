@@ -12,20 +12,18 @@ public class list {
         // Crear una lista
         List<String> myList = new ArrayList<>();
 
+
         // add
         myList.add("Valor 1");
         myList.add("Valor 3");
         myList.add(1, "Valor 2");
+
 
         // addAll
         List<String> myNewList = new ArrayList<>();
         myNewList.add("Valor 2.1");
         myNewList.add("Valor 2.2");
         myList.addAll(myNewList);
-        
-
-        // clear
-        myList.clear();
 
 
         // contains
@@ -46,6 +44,10 @@ public class list {
 
         // get
         System.out.println("Valor en pocision 1: " + myList.get(1));
+
+        
+        // hashcode
+        System.out.println("Hashcode de la lista: " + myList.hashCode());
 
 
         // indexOf
@@ -68,12 +70,16 @@ public class list {
         System.out.println("_\n");
 
 
+        // metodo lastIndexOf
+        System.out.println("ultima aparicion de 10 en la lista: " + myList.lastIndexOf(10));
+        
+
         // listIterator
         ListIterator<String> myLstIt = myList.listIterator();
 
         while (myLstIt.hasNext()) {
 
-            System.out.print(myIt.next() + " ");
+            System.out.print(myLstIt.next() + " ");
 
         }
 
@@ -97,7 +103,7 @@ public class list {
 
 
         // retainAll
-        myList.retainAll(myNewList2);
+        // myList.retainAll(myNewList2);
 
 
         // set
@@ -114,6 +120,20 @@ public class list {
 
         // spliterator
         Spliterator<String> spliterator = myList.spliterator();
+
+
+        // subList
+        System.out.println("subList de la lista desde 1 a 3: " + myList.subList(1,3));
+
+
+        //toArray
+        String[] myArray2 = new String[myList.size()];
+        myList.toArray(myArray2);
+        
+
+        // clear
+        myList.clear();
+        
 
     }
     

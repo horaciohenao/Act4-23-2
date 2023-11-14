@@ -30,6 +30,10 @@ public class sortedset {
         System.out.println("Valores menores a Valor 2: " + mySortedSet.headSet("Valor 2"));
 
 
+        // spliterator
+        Spliterator<String> spliterator = mySortedSet.spliterator(); 
+
+
         // subset
         System.out.println("Valores menores a Valor 1 y Valor 3: " + mySortedSet.subSet("Valor 1", "Valor 3"));
 

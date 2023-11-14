@@ -1,0 +1,4 @@
+-- listing properties --
+Key 1=Valor 1
+Key 2=Valor 2
+Key 3=Valor 3

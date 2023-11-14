@@ -66,6 +66,10 @@ public class linkedlist {
         System.out.println("El primer elemento de la lista es " + myLnkList.element()); 
 
 
+        // get
+        System.out.println("El valor 3 en la lista es: " + myLnkList.get(3));
+
+
         // getFirst
         System.out.println("El primer valor en la lista es: " + myLnkList.getFirst());
 
@@ -144,10 +148,6 @@ public class linkedlist {
 
         // remove
         myLnkList.remove(2); 
-
-
-        // remove
-        myLnkList.remove("Valor"); 
 
 
         // removeFirst

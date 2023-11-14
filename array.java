@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 import java.util.Spliterator;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
@@ -20,7 +21,12 @@ public class array {
     
         char[] myArrChar = {'A', 'B', 'C', 'D', 'E'};
         String[] myArrString = {"Valor A", "Valor B", "Valor C", "Valor D", "Valor E"};
-    
+        
+        Object[] myArrObject = {"Valor A", "Valor B", "Valor C", "Valor D", "Valor E"};
+
+
+        // asList
+        List<String> myArrLst = Arrays.asList(myArrString);
 
 
         // binarySearch para los distintos tipos de datos 
@@ -62,7 +68,7 @@ public class array {
         String[] myArrCopyOfString = Arrays.copyOf(myArrString, 5);
 
 
-        // copyOf
+        // copyOfRange
         byte[] myArrCopyOfRangeByte = Arrays.copyOfRange(myArrByte, 2, 3);
         short[] myArrCopyORangefShort = Arrays.copyOfRange(myArrShort, 2, 3);
         int[] myArrCopyOfIRangent = Arrays.copyOfRange(myArrInt, 2, 3);
@@ -71,6 +77,19 @@ public class array {
         double[] myArrCopyRangeOfDouble = Arrays.copyOfRange(myArrDouble, 2, 3);
         char[] myArrCopyOfRangeChar = Arrays.copyOfRange(myArrChar, 2, 3);
         String[] myArrCopyRangeOfString = Arrays.copyOfRange(myArrString, 2, 3);
+        Object[] myArrCopyRangeOfObject = Arrays.copyOfRange(myArrObject, 2, 3);
+
+
+        // deepEquals
+        System.out.println(  "Son el array myArrByte y myArrCopyByte iguales (deepEquals)? " +   Arrays.deepEquals( myArrObject,   myArrCopyRangeOfObject) ); 
+
+
+        // deepHashCode
+        System.out.println("deepHashCode de myArrByte " + Arrays.deepHashCode(myArrObject));
+
+
+        // deepToString
+        System.out.println("Array myArrByte a deepstring : " + Arrays.deepToString(myArrObject));
 
 
         // equals
